@@ -1,0 +1,14 @@
+.imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    font-size: 70px;
+}
