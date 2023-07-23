@@ -8,19 +8,33 @@
     <title>Rock Paper Sissors</title>
   </head>
   <body>
-    <div>
-      <h1 class="heading">Select Rock, Paper or Scissors</h1>
-      <div class="imgs">
-        <p>
-          <button class="playerBtn">rock<img src="imgs/fist.png" alt="rock" width="250px"></button>
-          <button class="playerBtn">paper<img src="imgs/palm.png" alt="paper" width="250px"></button>
-          <button class="playerBtn">scissors<img src="imgs/scissors.png" alt="scissors" width="250px"></button>
-        </p>
+    <div class="box">
+      <div class="view">
+        <div class="heading">
+          <h1>Rock, Paper or Scissors</h1>
+        </div>
+        <div class="text">
+          <p>Select your move:</p>
+        </div>
+        <div class="main">
+          <div class="imgs">
+            <p>
+              <button class="playerBtn">rock<img src="imgs/fist.png" alt="rock" width="250px"></button>
+              <button class="playerBtn">paper<img src="imgs/palm.png" alt="paper" width="250px"></button>
+              <button class="playerBtn">scissors<img src="imgs/scissors.png" alt="scissors" width="250px"></button>
+            </p>
+          </div>
+        </div>
+        <div class="result">
+          <div class="choices">
+            <p id="playerText">Player Choice:</p>
+            <p id="computerText">Computer Choice:</p>
+            <p id="resultText">Result:</p>
+          </div>
+        </div>
       </div>
-      <div class="choices">
-        <p id="playerText">Player Choice:</p>
-        <p id="computerText">Computer Choice:</p>
-        <p id="resultText">Result:</p>
+      <div class="footer">
+        <p>Made by Emma Barlow (2023)</p>
       </div>
     </div>
     <script src="app.js"></script>
